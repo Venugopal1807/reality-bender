@@ -1,0 +1,28 @@
+--- System Files ---
+
+.DS_Store
+Thumbs.db
+
+--- Node / Frontend ---
+
+node_modules/
+.next/
+out/
+build/
+.vercel
+
+--- Python / Backend ---
+
+This is crucial to stop the venv upload
+
+backend/venv/
+backend/pycache/
+*.pyc
+
+--- Environment Variables ---
+
+Never upload API keys!
+
+.env
+backend/.env
+frontend/.env.local
