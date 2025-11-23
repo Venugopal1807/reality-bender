@@ -1,10 +1,10 @@
-🔮 Reality Bender: AI Image Editor
+# 🔮 Reality Bender: AI Image Editor
 
 Reality Bender is a full-stack generative AI application that allows users to edit images using natural language instructions (e.g., "Make it look like a futuristic city" or "Turn the day into night").
 
 Unlike traditional editors that require complex masking or manual brushwork, this application leverages the InstructPix2Pix diffusion model to understand the semantic context of the image and the text prompt simultaneously.
 
-🚀 Live Demo
+# 🚀 Live Demo
 
 [Insert Your Vercel/Render Link Here]
 
@@ -42,7 +42,7 @@ Backend: Python FastAPI. I choose Python over Node.js for the backend to align w
 
 DevOps: The backend is containerized using Docker for reproducibility.
 
-✨ Key Features
+# ✨ Key Features
 
 Dual-Mode Engine:
 
@@ -54,7 +54,7 @@ Modern UX: Fully responsive UI with a custom Dark/Light theme toggle and loading
 
 Secure: API keys are managed server-side (FastAPI), never exposed to the client.
 
-🛠️ Local Setup Instructions
+# 🛠️ Local Setup Instructions
 
 Prerequisites
 
@@ -74,21 +74,21 @@ Step 2: Backend Setup (The Brain)
 
 cd backend
 
-# Create virtual environment (Python 3.11 recommended)
+Create virtual environment (Python 3.11 recommended)
 python -m venv venv
 
-# Activate (Windows)
+Activate (Windows)
 venv\Scripts\activate
-# Activate (Mac/Linux)
-# source venv/bin/activate
+Activate (Mac/Linux)
+source venv/bin/activate
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Create .env file
+Create .env file
 echo "REPLICATE_API_TOKEN=r8_your_key_here" > .env
 
-# Run Server
+Run Server
 uvicorn main:app --reload --port 8000
 
 
