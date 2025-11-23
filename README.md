@@ -6,7 +6,7 @@ Unlike traditional editors that require complex masking or manual brushwork, thi
 
 ## 🚀 Live Demo
 
-[Insert Your Vercel/Render Link Here]
+[(https://reality-bender.vercel.app/)]
 
 (Note: The live demo defaults to "Showcase Mode" to save API credits. Toggle "Live Backend" to use the real model.)
 
