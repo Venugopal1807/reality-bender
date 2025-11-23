@@ -46,7 +46,7 @@ DevOps: The backend is containerized using Docker for reproducibility.
 
 Dual-Mode Engine:
 
-Showcase Mode: A mock-data layer that allows recruiters/users to test the UI flow instantly without needing a running backend or API keys.
+Showcase Mode: A mock-data layer that allows users to test the UI flow instantly without needing a running backend or API keys.
 
 Live Backend Mode: Connects to the local/deployed Python server for real-time inference.
 
