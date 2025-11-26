@@ -1,16 +1,16 @@
-# 🔮 Reality Bender: AI Image Editor
+# Reality Bender: AI Image Editor
 
 Reality Bender is a full-stack generative AI application that allows users to edit images using natural language instructions (e.g., "Make it look like a futuristic city" or "Turn the day into night").
 
 Unlike traditional editors that require complex masking or manual brushwork, this application leverages the InstructPix2Pix diffusion model to understand the semantic context of the image and the text prompt simultaneously.
 
-## 🚀 Live Demo
+## Live Demo
 
 [(https://reality-bender.vercel.app/)]
 
 (Note: The live demo defaults to "Showcase Mode" to save API credits. Toggle "Live Backend" to use the real model.)
 
-### 📄 Assignment Technical Write-up
+### Assignment Technical Write-up
 
 Submitted as part of the AI + Full Stack Intern Assignment.
 
@@ -42,7 +42,7 @@ Backend: Python FastAPI. I choose Python over Node.js for the backend to align w
 
 DevOps: The backend is containerized using Docker for reproducibility.
 
-## ✨ Key Features
+## Key Features
 
 Dual-Mode Engine:
 
@@ -54,7 +54,7 @@ Modern UX: Fully responsive UI with a custom Dark/Light theme toggle and loading
 
 Secure: API keys are managed server-side (FastAPI), never exposed to the client.
 
-## 🛠️ Local Setup Instructions
+## Local Setup Instructions
 
 Prerequisites
 
@@ -103,7 +103,7 @@ npm run dev
 
 Open http://localhost:3000 in your browser.
 
-### 🐳 Docker Support
+### Docker Support
 
 The backend includes a Dockerfile for containerized deployment.
 
